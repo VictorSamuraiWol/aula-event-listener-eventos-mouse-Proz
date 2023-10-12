@@ -56,33 +56,3 @@ console.log(subtotalValor);
 btnAdicionarProduto01.addEventListener('click', adicionarUm);
 
 btnSubtrairProduto01.addEventListener('click', subtrairUm);
-
-/*const btnAdicionar = document.getElementById('btn-adicionar-produto-01');
-
-const qtdProdutos = document.getElementById('quantidade-produto-01');
-
- 
-
-btnAdicionar.addEventListener('click', ()=> {
-
-  qtdProdutos.value = Number(qtdProdutos.value) + 1;
-
-});
-
- 
-
-const btnSubtrair = document.getElementById('btn-subtrair-produto-01');
-
- 
-
-btnSubtrair.addEventListener('click', ()=> {
-
-  const quantidade = Number(qtdProdutos.value);
-
-  if(quantidade > 0){
-
-    qtdProdutos.value = Number(qtdProdutos.value) - 1;
-
-  }
-
-});*/
